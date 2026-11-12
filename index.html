@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>POSHANA — Nutrition &amp; Wellness Clinic</title>
+  <meta name="description" content="POSHANA is a nutrition and wellness clinic offering personalised diet plans, clinical nutrition, PCOS and diabetes nutrition support, and expert dietitian guidance.">
+  <meta name="theme-color" content="#234B3A">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/images/logo-icon.png">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="POSHANA — Nutrition &amp; Wellness Clinic">
+  <meta property="og:description" content="Personalised nutrition guidance, practical diet plans and expert wellness support.">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3 + Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Site styles -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <a class="visually-hidden-focusable position-absolute top-0 start-0 m-2 btn btn-forest" href="#main">Skip to content</a>
+
+  <!-- ================= NAVIGATION ================= -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand brand" href="index.html">
+          <img src="assets/images/logo.png" alt="Poshana — Calm Mind Nourished Body" class="brand-logo" width="640" height="429">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="toggler-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#dietitian">Our Dietitian</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html#packages">Packages</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#blog">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+          <a class="btn btn-forest" href="contact.html#book">Book Appointment</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <span class="eyebrow reveal">Nutrition &amp; Wellness Clinic</span>
+            <h1 id="hero-title" class="reveal" data-delay="1">Transform Your Health Through <em>Better Nutrition</em></h1>
+            <p class="hero-lead reveal" data-delay="2">Discover a healthier, happier you with personalised nutrition guidance, practical diet plans and expert wellness support.</p>
+            <div class="d-flex flex-wrap gap-3 reveal" data-delay="3">
+              <a href="contact.html#book" class="btn btn-forest btn-lg">Book Your Consultation <i class="bi bi-arrow-right ms-1"></i></a>
+              <a href="#services" class="btn btn-outline-forest btn-lg">Explore Our Services</a>
+            </div>
+            <ul class="hero-points reveal" data-delay="4">
+              <li><i class="bi bi-person-check" aria-hidden="true"></i> Personalised plans</li>
+              <li><i class="bi bi-basket" aria-hidden="true"></i> Food-first approach</li>
+              <li><i class="bi bi-graph-up-arrow" aria-hidden="true"></i> Ongoing follow-up</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-visual reveal" data-delay="2">
+              <span class="hero-ring" aria-hidden="true"></span>
+              <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1100&q=80"
+                     alt="A colourful bowl of fresh vegetables, greens and grains" width="1100" height="1375" fetchpriority="high">
+              </div>
+              <div class="float-card one">
+                <span class="icon"><i class="bi bi-clipboard2-pulse" aria-hidden="true"></i></span>
+                <div><strong>Built around you</strong><span>Your routine, your foods</span></div>
+              </div>
+              <div class="float-card two">
+                <span class="icon"><i class="bi bi-heart-pulse" aria-hidden="true"></i></span>
+                <div><strong>Whole-person care</strong><span>Diet, lifestyle &amp; habits</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section bg-white-section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div class="about-visual reveal">
+              <div class="main-img">
+                <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1000&q=80"
+                     alt="Several healthy meal bowls arranged on a table" loading="lazy" width="1000" height="1200">
+              </div>
+              <div class="accent-img">
+                <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=600&q=80"
+                     alt="Fresh vegetables and herbs" loading="lazy" width="600" height="600">
+              </div>
+              <div class="about-badge">
+                <i class="bi bi-flower1" aria-hidden="true"></i>
+                <p>Nourishment that fits real life</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 ps-lg-5">
+            <span class="eyebrow reveal">About Poshana</span>
+            <h2 id="about-title" class="reveal" data-delay="1">Nutrition That Understands You</h2>
+            <p class="mt-4 reveal" data-delay="2">Poshana is a nutrition and wellness clinic dedicated to personalised dietary guidance. We believe good nutrition should feel achievable — rooted in the foods you enjoy, shaped around your daily routine, and focused on changes you can sustain for life.</p>
+            <p class="reveal" data-delay="2">Whether you are managing a health condition, working towards a healthier weight or simply want to eat better, we help you build healthier habits one practical step at a time.</p>
+            <ul class="check-list reveal" data-delay="3">
+              <li><i class="bi bi-check2" aria-hidden="true"></i> Personalised dietary guidance, not one-size-fits-all plans</li>
+              <li><i class="bi bi-check2" aria-hidden="true"></i> Sustainable lifestyle improvements that last</li>
+              <li><i class="bi bi-check2" aria-hidden="true"></i> Support for healthier living at every stage of life</li>
+            </ul>
+            <a href="about.html" class="btn btn-forest reveal" data-delay="4">Learn More <i class="bi bi-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="eyebrow reveal">Our Services</span>
+          <h2 id="services-title" class="reveal" data-delay="1">Expert Care for Every Nutritional Need</h2>
+          <p class="reveal" data-delay="2">Evidence-informed nutrition support tailored to your health goals, medical needs and lifestyle.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="service-card reveal">
+              <div class="service-media">
+                <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80" alt="A balanced plate of salad and vegetables" loading="lazy" width="800" height="500">
+                <span class="service-icon"><i class="bi bi-speedometer2" aria-hidden="true"></i></span>
+              </div>
+              <div class="service-body">
+                <h3>Weight Management</h3>
+                <p>Realistic, balanced plans for healthy weight loss or gain — without crash diets or giving up the foods you love.</p>
+                <a href="services.html#weight-management" class="link-arrow">Learn More <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="service-card reveal" data-delay="1">
+              <div class="service-media">
+                <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&q=80" alt="A healthcare consultation setting" loading="lazy" width="800" height="500">
+                <span class="service-icon"><i class="bi bi-clipboard2-pulse" aria-hidden="true"></i></span>
+              </div>
+              <div class="service-body">
+                <h3>Clinical Nutrition</h3>
+                <p>Nutrition support for medical conditions, designed to complement the care you receive from your doctor.</p>
+                <a href="services.html#clinical-nutrition" class="link-arrow">Learn More <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="service-card reveal" data-delay="2">
+              <div class="service-media">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80" alt="A nourishing bowl of greens, grains and vegetables" loading="lazy" width="800" height="500">
+                <span class="service-icon"><i class="bi bi-gender-female" aria-hidden="true"></i></span>
+              </div>
+              <div class="service-body">
+                <h3>PCOS Nutrition</h3>
+                <p>Food and lifestyle strategies that support hormonal balance, energy levels and overall wellbeing.</p>
+                <a href="services.html#pcos-nutrition" class="link-arrow">Learn More <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="service-card reveal">
+              <div class="service-media">
+                <img src="https://images.unsplash.com/photo-1543362906-acfc16c67564?auto=format&fit=crop&w=800&q=80" alt="Fresh vegetables and whole foods on a counter" loading="lazy" width="800" height="500">
+                <span class="service-icon"><i class="bi bi-droplet-half" aria-hidden="true"></i></span>
+              </div>
+              <div class="service-body">
+                <h3>Diabetes Management</h3>
+                <p>Practical meal planning to help manage blood sugar levels, with guidance on portions, timing and food choices.</p>
+                <a href="services.html#diabetes-management" class="link-arrow">Learn More <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="service-card reveal" data-delay="1">
+              <div class="service-media">
+                <img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&w=800&q=80" alt="A bowl of fresh, colourful fruit" loading="lazy" width="800" height="500">
+                <span class="service-icon"><i class="bi bi-emoji-smile" aria-hidden="true"></i></span>
+              </div>
+              <div class="service-body">
+                <h3>Child Nutrition</h3>
+                <p>Guidance for parents on balanced meals, healthy growth and building positive eating habits from an early age.</p>
+                <a href="services.html#child-nutrition" class="link-arrow">Learn More <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="service-card reveal" data-delay="2">
+              <div class="service-media">
+                <img src="https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=800&q=80" alt="An assortment of fresh vegetables" loading="lazy" width="800" height="500">
+                <span class="service-icon"><i class="bi bi-journal-medical" aria-hidden="true"></i></span>
+              </div>
+              <div class="service-body">
+                <h3>Therapeutic Diet Planning</h3>
+                <p>Structured diet plans for specific health needs, such as digestive, thyroid or heart-health concerns.</p>
+                <a href="services.html#therapeutic-diet" class="link-arrow">Learn More <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= WHY CHOOSE ================= -->
+    <section class="section why-section" id="why" aria-labelledby="why-title">
+      <div class="container position-relative">
+        <div class="section-heading center">
+          <span class="eyebrow light reveal">Why Choose Poshana?</span>
+          <h2 id="why-title" class="reveal" data-delay="1">Care That Goes Beyond a Diet Chart</h2>
+          <p class="reveal" data-delay="2">Everything we do is designed to make healthy eating clear, achievable and personal to you.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="why-item reveal">
+              <span class="why-icon"><i class="bi bi-person-check" aria-hidden="true"></i></span>
+              <h3>Personalised Nutrition Plans</h3>
+              <p>Plans built around your health profile, preferences, culture and daily schedule.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="why-item reveal" data-delay="1">
+              <span class="why-icon"><i class="bi bi-award" aria-hidden="true"></i></span>
+              <h3>Expert Dietitian Guidance</h3>
+              <p>Professional, evidence-informed advice you can trust at every step.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="why-item reveal" data-delay="2">
+              <span class="why-icon"><i class="bi bi-arrow-repeat" aria-hidden="true"></i></span>
+              <h3>Sustainable Lifestyle Changes</h3>
+              <p>Small, steady habit changes designed to last — not quick fixes.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="why-item reveal">
+              <span class="why-icon"><i class="bi bi-graph-up-arrow" aria-hidden="true"></i></span>
+              <h3>Progress Monitoring</h3>
+              <p>Regular check-ins to review progress and adjust your plan as you go.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="why-item reveal" data-delay="1">
+              <span class="why-icon"><i class="bi bi-basket" aria-hidden="true"></i></span>
+              <h3>Practical Food Recommendations</h3>
+              <p>Simple meals and swaps using everyday, easy-to-find ingredients.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="why-item reveal" data-delay="2">
+              <span class="why-icon"><i class="bi bi-heart" aria-hidden="true"></i></span>
+              <h3>Patient-Centred Approach</h3>
+              <p>You are heard, respected and supported — your goals lead the way.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= DIETITIAN ================= -->
+    <section class="section" id="dietitian" aria-labelledby="dietitian-title">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="eyebrow reveal">Meet Our Dietitian</span>
+          <h2 id="dietitian-title" class="reveal" data-delay="1">Guidance From Someone Who Listens</h2>
+        </div>
+
+        <div class="dietitian-card reveal">
+          <div class="row g-0">
+            <div class="col-lg-5">
+              <div class="dietitian-photo">
+                <!-- Replace with the dietitian's own photograph: assets/images/dietitian.jpg -->
+                <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=900&q=80"
+                     alt="Placeholder portrait of the Poshana dietitian" loading="lazy" width="900" height="1100">
+                <span class="placeholder-tag photo-note">Placeholder photo</span>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="dietitian-body">
+                <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+                <h3>[Dietitian Name]</h3>
+                <p class="dietitian-qual">
+                  Dietitian &amp; Nutrition Consultant
+                  <span class="placeholder-tag">Qualifications to be added</span>
+                </p>
+                <p>Our dietitian works closely with each client to understand their health history, lifestyle and food preferences before creating a plan. The focus is always on practical, sustainable changes — helping you feel confident about what you eat and why.</p>
+                <p>From your first consultation through every follow-up, you can expect clear explanations, realistic goals and steady, encouraging support.</p>
+                <div class="dietitian-tags" aria-label="Areas of focus">
+                  <span>Weight Management</span>
+                  <span>PCOS</span>
+                  <span>Diabetes</span>
+                  <span>Child Nutrition</span>
+                </div>
+                <a href="contact.html#book" class="btn btn-forest">Book Consultation <i class="bi bi-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HOW IT WORKS ================= -->
+    <section class="section bg-white-section" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="eyebrow reveal">How It Works</span>
+          <h2 id="process-title" class="reveal" data-delay="1">Four Simple Steps to Better Health</h2>
+        </div>
+
+        <ol class="row steps list-unstyled mb-0">
+          <li class="col-sm-6 col-lg-3 step reveal">
+            <span class="step-num">01</span>
+            <h3>Book Consultation</h3>
+            <p>Choose a convenient time to meet online or in person.</p>
+          </li>
+          <li class="col-sm-6 col-lg-3 step reveal" data-delay="1">
+            <span class="step-num">02</span>
+            <h3>Nutrition Assessment</h3>
+            <p>We review your health, lifestyle, eating habits and goals.</p>
+          </li>
+          <li class="col-sm-6 col-lg-3 step reveal" data-delay="2">
+            <span class="step-num">03</span>
+            <h3>Personalised Diet Plan</h3>
+            <p>Receive a practical plan tailored to your needs and preferences.</p>
+          </li>
+          <li class="col-sm-6 col-lg-3 step reveal" data-delay="3">
+            <span class="step-num">04</span>
+            <h3>Progress Monitoring</h3>
+            <p>Regular follow-ups to track progress and fine-tune your plan.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= TESTIMONIALS ================= -->
+    <section class="section" id="testimonials" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="eyebrow reveal">Testimonials</span>
+          <h2 id="testimonials-title" class="reveal" data-delay="1">Stories of Healthier Living</h2>
+        </div>
+
+        <div class="testimonial-wrap reveal">
+          <span class="big-quote" aria-hidden="true"><i class="bi bi-quote"></i></span>
+
+          <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <figure class="testimonial mb-0">
+                  <span class="placeholder-tag">Sample testimonial</span>
+                  <blockquote>“The plan fitted my busy work schedule perfectly. For the first time, eating well felt simple rather than stressful.”</blockquote>
+                  <figcaption class="testimonial-author">
+                    <span class="avatar" aria-hidden="true">SA</span>
+                    <span><strong>Sample Client A</strong><span>Weight Management</span></span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="carousel-item">
+                <figure class="testimonial mb-0">
+                  <span class="placeholder-tag">Sample testimonial</span>
+                  <blockquote>“I finally understood how food affects my PCOS symptoms. The guidance was clear, kind and easy to follow.”</blockquote>
+                  <figcaption class="testimonial-author">
+                    <span class="avatar" aria-hidden="true">SB</span>
+                    <span><strong>Sample Client B</strong><span>PCOS Nutrition</span></span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="carousel-item">
+                <figure class="testimonial mb-0">
+                  <span class="placeholder-tag">Sample testimonial</span>
+                  <blockquote>“Regular follow-ups kept me motivated. I learned practical swaps that our whole family now enjoys.”</blockquote>
+                  <figcaption class="testimonial-author">
+                    <span class="avatar" aria-hidden="true">SC</span>
+                    <span><strong>Sample Client C</strong><span>Diabetes Management</span></span>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="carousel-controls">
+              <button class="carousel-btn" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev" aria-label="Previous testimonial">
+                <i class="bi bi-arrow-left" aria-hidden="true"></i>
+              </button>
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Testimonial 1"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Testimonial 2"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Testimonial 3"></button>
+              </div>
+              <button class="carousel-btn" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next" aria-label="Next testimonial">
+                <i class="bi bi-arrow-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <p class="sample-note"><i class="bi bi-info-circle me-1" aria-hidden="true"></i> These are illustrative samples. Genuine patient reviews will replace them once provided.</p>
+      </div>
+    </section>
+
+    <!-- ================= BLOG ================= -->
+    <section class="section bg-white-section" id="blog" aria-labelledby="blog-title">
+      <div class="container">
+        <div class="d-flex flex-wrap justify-content-between align-items-end gap-3 mb-5">
+          <div class="section-heading mb-0">
+            <span class="eyebrow reveal">Nutrition Blog</span>
+            <h2 id="blog-title" class="reveal" data-delay="1">Fresh Ideas for Healthier Living</h2>
+          </div>
+          <a href="#blog" class="btn btn-outline-forest reveal" data-delay="2">View All Articles</a>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="blog-card reveal">
+              <div class="blog-media">
+                <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=800&q=80" alt="A healthy breakfast of toast and fresh fruit" loading="lazy" width="800" height="533">
+                <span class="blog-cat">Recipes</span>
+              </div>
+              <div class="blog-body">
+                <div class="blog-meta"><span><i class="bi bi-clock"></i>4 min read</span></div>
+                <h3><a href="#blog">5 Healthy Breakfast Ideas</a></h3>
+                <p>Quick, nourishing breakfasts to keep you energised and satisfied through the morning.</p>
+                <a href="#blog" class="link-arrow">Read Article <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="blog-card reveal" data-delay="1">
+              <div class="blog-media">
+                <img src="https://images.unsplash.com/photo-1494390248081-4e521a5940db?auto=format&fit=crop&w=800&q=80" alt="A spread of whole-food ingredients" loading="lazy" width="800" height="533">
+                <span class="blog-cat">Nutrition Basics</span>
+              </div>
+              <div class="blog-body">
+                <div class="blog-meta"><span><i class="bi bi-clock"></i>6 min read</span></div>
+                <h3><a href="#blog">Understanding Balanced Nutrition</a></h3>
+                <p>What a balanced plate really looks like, and how to build one at every meal.</p>
+                <a href="#blog" class="link-arrow">Read Article <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="blog-card reveal" data-delay="2">
+              <div class="blog-media">
+                <img src="https://images.unsplash.com/photo-1505576399279-565b52d4ac71?auto=format&fit=crop&w=800&q=80" alt="Fresh fruit and a glass of smoothie" loading="lazy" width="800" height="533">
+                <span class="blog-cat">Lifestyle</span>
+              </div>
+              <div class="blog-body">
+                <div class="blog-meta"><span><i class="bi bi-clock"></i>5 min read</span></div>
+                <h3><a href="#blog">Simple Ways to Improve Your Lifestyle</a></h3>
+                <p>Small daily habits — from hydration to sleep — that add up to big health benefits.</p>
+                <a href="#blog" class="link-arrow">Read Article <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FINAL CTA ================= -->
+    <section class="section pb-0" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-band reveal">
+          <i class="bi bi-flower1 cta-leaf l" aria-hidden="true"></i>
+          <i class="bi bi-flower1 cta-leaf r" aria-hidden="true"></i>
+          <span class="eyebrow light">Take the first step</span>
+          <h2 id="cta-title">Your Journey to Better Health Starts Today.</h2>
+          <p>Book a consultation and get a personalised nutrition plan designed around you.</p>
+          <a href="contact.html#book" class="btn btn-cream btn-lg">Book Your Appointment <i class="bi bi-arrow-right ms-1"></i></a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4">
+          <a class="footer-logo" href="index.html">
+            <img src="assets/images/logo.png" alt="Poshana — Calm Mind Nourished Body" width="640" height="429" loading="lazy">
+          </a>
+          <p class="mt-4 pe-lg-4">A nutrition and wellness clinic offering personalised dietary guidance for sustainable, healthier living.</p>
+          <div class="social" aria-label="Social media">
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <h2 class="footer-title">Quick Links</h2>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="index.html#dietitian">Our Dietitian</a></li>
+            <li><a href="services.html#packages">Packages</a></li>
+            <li><a href="index.html#blog">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <h2 class="footer-title">Services</h2>
+          <ul class="footer-links">
+            <li><a href="services.html#weight-management">Weight Management</a></li>
+            <li><a href="services.html#clinical-nutrition">Clinical Nutrition</a></li>
+            <li><a href="services.html#pcos-nutrition">PCOS Nutrition</a></li>
+            <li><a href="services.html#diabetes-management">Diabetes Management</a></li>
+            <li><a href="services.html#child-nutrition">Child Nutrition</a></li>
+            <li><a href="services.html#therapeutic-diet">Therapeutic Diet Planning</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <h2 class="footer-title">Contact</h2>
+          <ul class="footer-links footer-contact">
+            <li><i class="bi bi-geo-alt" aria-hidden="true"></i><span>[Clinic address line 1]<br>[City, State, PIN]</span></li>
+            <li><i class="bi bi-telephone" aria-hidden="true"></i><span>[+91 XXXXX XXXXX]</span></li>
+            <li><i class="bi bi-envelope" aria-hidden="true"></i><span>[hello@yourdomain.com]</span></li>
+            <li><i class="bi bi-clock" aria-hidden="true"></i><span>[Working hours]</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom d-md-flex justify-content-between align-items-center">
+        <p class="mb-2 mb-md-0">&copy; <span data-year>2026</span> POSHANA Nutrition &amp; Wellness Clinic. All rights reserved.</p>
+        <p class="mb-0"><a href="#">Privacy Policy</a> &nbsp;·&nbsp; <a href="#">Terms of Use</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top"><i class="bi bi-arrow-up" aria-hidden="true"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
