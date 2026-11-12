@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # POSHANA — Nutrition & Wellness Clinic Website (Phase 1)
 
 A premium, responsive static website for POSHANA, built with HTML5, CSS3, Bootstrap 5.3, Bootstrap Icons, Google Fonts and plain JavaScript. No frameworks, no build step.
@@ -90,3 +91,6 @@ Latest Chrome, Edge, Firefox and Safari, plus iOS Safari and Chrome for Android.
 ## Note on shared header/footer
 
 The header and footer are repeated in each HTML file so the site works by simply opening the files — no server or build step needed. If you later move to a templating setup (e.g. PHP includes or a static site generator), these are the first blocks to extract into partials.
+=======
+# poshana
+>>>>>>> d3d00bad72791a526981a342a6d499dbdc31f5b8
